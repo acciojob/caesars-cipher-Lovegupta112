@@ -17,13 +17,15 @@ function rot13(encodedStr){
 	 // let key=encodedStr.charAt(i);//string  or
       let key =encodedStr[i];
 	  if(lookup[key]===undefined){
-		  decodedArr.push(key);
+		  // decodedArr.push(key);
+return key;
 	  }
 	  else{
-		  decodedArr.push(lookup[key]);
+		  // decodedArr.push(lookup[key]);
+return key;
 	  }
   }
-  return decodedArr.toString();//return decodedArr
+  // return decodedArr.toString();//return decodedArr
 }
 
 // You can test your code by running the above function and printing it to console by pressing the run button at the top.
