@@ -19,14 +19,14 @@ Let s="";
       let key =encodedStr[i];
 	  if(lookup[key]===undefined){
 		  // decodedArr.push(key);
-return key;
-// s=s+key;
+// return key;
+s=s+key;
 
 	  }
 	  else{
 		  // decodedArr.push(lookup[key]);
-return lookup[key];
-// s=s+lookup[key];
+// return lookup[key];
+s=s+lookup[key];
 	  }
   }
   // return decodedArr.toString();//return decodedArr;
